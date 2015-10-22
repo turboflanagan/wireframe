@@ -1,15 +1,44 @@
+img {
+	width: 100%;
+}
+
 .nav-bar {
 	height: 30%;
 	width: 100%; 
+	overflow: hidden;
 
 	#nav-logo {
 		float: left;
+		width: 125px;
 	}
 
 	.nav-button-bar {
 		float: right;
-		
+		.nav-button {
+			font-size: 20px;
+		}
+
 	}
 }
 
 
+.header-body {
+	position: relative;
+	.logo-box {
+		width: 70%;
+		margin: auto;		
+	}
+
+
+	.social-icon {
+		width: 30px;
+			position: absolute;
+			right: 0px;
+			top: 15%;
+			width: 50px;
+		img {
+			
+		}
+
+	}
+}
