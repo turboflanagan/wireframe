@@ -6,6 +6,8 @@ img {
 	height: 30%;
 	width: 100%; 
 	overflow: hidden;
+	margin-bottom: 30px;
+	border-bottom: 2px solid;
 
 	#nav-logo {
 		float: left;
@@ -25,10 +27,14 @@ img {
 .header-body {
 	position: relative;
 	.logo-box {
-		width: 70%;
+		width: 55%;
 		margin: auto;		
 	}
 
+	img{
+	    border: 6px solid rgba(65, 62, 46, 0.46);
+	    border-radius: 15px;
+	}
 
 	.social-icon {
 		width: 30px;

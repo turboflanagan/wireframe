@@ -8,31 +8,38 @@ img {
   height: 30%;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 30px;
+  border-bottom: 2px solid;
 }
-/* line 10, ../compass/sass/style.scss */
+/* line 12, ../compass/sass/style.scss */
 .nav-bar #nav-logo {
   float: left;
   width: 125px;
 }
-/* line 15, ../compass/sass/style.scss */
+/* line 17, ../compass/sass/style.scss */
 .nav-bar .nav-button-bar {
   float: right;
 }
-/* line 17, ../compass/sass/style.scss */
+/* line 19, ../compass/sass/style.scss */
 .nav-bar .nav-button-bar .nav-button {
   font-size: 20px;
 }
 
-/* line 25, ../compass/sass/style.scss */
+/* line 27, ../compass/sass/style.scss */
 .header-body {
   position: relative;
 }
-/* line 27, ../compass/sass/style.scss */
+/* line 29, ../compass/sass/style.scss */
 .header-body .logo-box {
-  width: 70%;
+  width: 55%;
   margin: auto;
 }
-/* line 33, ../compass/sass/style.scss */
+/* line 34, ../compass/sass/style.scss */
+.header-body img {
+  border: 6px solid rgba(65, 62, 46, 0.46);
+  border-radius: 15px;
+}
+/* line 39, ../compass/sass/style.scss */
 .header-body .social-icon {
   width: 30px;
   position: absolute;
